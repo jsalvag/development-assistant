@@ -1,0 +1,15 @@
+spring:
+  main:
+    banner-mode: off
+  application:
+    name: Development Assistant
+  datasource:
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+  jpa:
+    database-platform:  org.hibernate.dialect.SQLServer2008Dialect
+    properties:
+      hibernate:
+        dialect:  org.hibernate.dialect.SQLServer2008Dialect
+
+server:
+  port: 9500
